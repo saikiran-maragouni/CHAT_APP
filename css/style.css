@@ -1,0 +1,88 @@
+body {
+  margin: auto;
+  background-color: #1b1616;
+  color: #fff;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  height: 50px;
+  width: 50px;
+}
+
+nav {
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: black;
+  text-align: center;
+  height: 60px;
+  padding-top: 2px;
+}
+
+.container {
+  background-color: #262525bd;
+  /* border: 2px solid grey; */
+  margin-left: 100px;
+  margin-right: 100px;
+  /* margin: auto; */
+  height: 84vh;
+  /* background-image: url(https://web.whatsapp.com/img/bg-chat-tile-dark_a4be512e7195b6b733d9110b408f075d.png); */
+  overflow-y: auto;
+
+}
+
+
+.left {
+  background-color: #ea81c144;
+  width: 25%;
+  margin: 15px;
+  padding: 7px;
+  border: 2px solid lightgrey;
+  border-radius: 11px;
+  line-height: 1.5;
+  float: left;
+  clear: both;
+}
+
+.right {
+  background-color: #ea81c144;
+  width: 25%;
+  margin: 15px;
+  padding: 7px;
+  border: 2px solid lightgrey;
+  border-radius: 11px;
+  line-height: 1.5;
+  float: right;
+  clear: both;
+}
+
+
+.send{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#send-container {
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  background-color: black;
+  text-align: center;
+  height: 60px;
+  padding-top: 2px;
+}
+
+#msg-Inp {
+  margin: 14px;
+  height: 27px;
+  width: 80%;
+  border-radius: 10px;
+  padding: 0 30px;
+}
+
+.btn {
+  cursor: pointer;
+  border: 2px solid lightgrey;
+  border-radius: 6px;
+  height: 27px;
+
+}
